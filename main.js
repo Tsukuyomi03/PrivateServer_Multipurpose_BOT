@@ -116,8 +116,8 @@ client.once('ready',async () => {
     client.user.setPresence({
         status: 'online',
         activity: {
-            name: 'VS Code',
-            type: 'PLAYING',
+            name: 'GINO while coding',
+            type: 'WATCHING',
         }
     })
 });

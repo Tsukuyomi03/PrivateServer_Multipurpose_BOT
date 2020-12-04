@@ -19,7 +19,7 @@ module.exports = client =>{
         const channel4 = guild.channels.cache.get(channelID4)
         channel4.setName(`ONLINE : ${guild.members.cache.filter(m =>m.presence.status === 'online').size}`)
         const channel5 = guild.channels.cache.get(channelID5)
-        channel5.setName(`OFFLINE : ${guild.members.cache.filter(m =>m.presence.status === 'invisible').size}`)
+        channel5.setName(`OFFLINE : ${guild.members.cache.filter(m =>m.presence.status === 'offline').size}`)
         const channel6 = guild.channels.cache.get(channelID6)
         channel6.setName(`IDLE : ${guild.members.cache.filter(m =>m.presence.status === 'idle').size}`)
         const channel7 = guild.channels.cache.get(channelID7)

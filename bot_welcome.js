@@ -5,7 +5,6 @@ module.exports = (client) => {
     const targetChannel2 = '781346025859842058' // Verification 
     client.on('guildMemberAdd', (member) => {
         console.log(member)
-        
         const message = `Welcome to my Server <@${member.id}>. Please read the ${member.guild.channels.cache
             .get(targetChannel1)
             .toString()} and verify at ${member.guild.channels.cache
